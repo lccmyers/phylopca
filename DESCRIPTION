@@ -1,0 +1,18 @@
+Package: phylopca
+Type: Package
+Title: Phylogenetic Principle Component Analysis
+Version: 0.1.0
+Authors@R: person(given = "Lydia",
+           family = "Myers",
+           role = c("aut", "cre"),
+           email = "lydia.myers@utexas.edu")
+Description: This package allows easy analysis of biological data using PCA.
+Depends: R (>= 3.5.2)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ggplot2,
+    dplyr,
+    factoextra
+RoxygenNote: 7.1.1
